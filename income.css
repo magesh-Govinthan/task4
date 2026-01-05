@@ -57,15 +57,15 @@ fieldset{
 }
 .describtion{
     display:flex;
-    gap:60px;
+    gap:30px;
     margin-left:8px;
-    
+   
 }
 
 h2{
     background-color:crimson;
     height:30px;
-   
+    text-align: center;
     border-radius:3px;
     border:none;
     padding:5px;
@@ -137,9 +137,7 @@ fieldset{
     display:flex;
     gap:5px;
     margin-left:5px;
-
-    
-}
+    }
 h2{
     font-size:medium;
     background-color:crimson;
@@ -162,11 +160,11 @@ input[type="text"]{
 }
 input[type="number"]{
     height:20px;
-    width:70px;
+    width:60px;
 }
 #select{
    height:30px; 
-   width:60px;
+   width:40px;
 
 }
 button{
@@ -190,7 +188,7 @@ ul li{
     display:flex;
     gap:6px;
     align-items:center;
-    height:40px;
+    height:50px;
 }
 
 }
