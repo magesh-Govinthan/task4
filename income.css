@@ -99,6 +99,7 @@ ul li{
 }
 @media only screen and (max-width: 475px){
     .container{
+         background-image:url(https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg);
         width:100%;
     border-radius:9px;
     margin:0px auto;
@@ -134,7 +135,7 @@ fieldset{
 }
 .describtion{
     display:flex;
-    gap:30px;
+    gap:50px;
     margin-left:5px;
 
     
