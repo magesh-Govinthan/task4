@@ -157,16 +157,16 @@ h2{
     padding:5px;
 }
 input[type="text"]{
-    height:25px;
+    height:20px;
     width:70px;
 }
 input[type="number"]{
-    height:25px;
-    width:60px;
+    height:20px;
+    width:70px;
 }
 #select{
    height:30px; 
-   width:40px;
+   width:60px;
 
 }
 button{
