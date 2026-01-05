@@ -1,0 +1,183 @@
+.container{
+    background-image:url(https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg);
+    width:700px;
+    border:1px solid rgb(189, 84, 102);
+    border-radius:9px;
+    margin:0px auto;
+    padding:20px;
+    color:black;
+    font-size:20px;
+    
+}
+h1{
+    text-align: center;
+    color:purple;
+}
+fieldset{
+    padding:10px;
+    line-height:40px;
+    
+}
+.incomestack{
+    display: flex;
+    gap:50px;
+    align-items:center;
+    justify-content: center;
+ 
+}
+.incomeBox{
+    height:30px;
+    
+    border:1px solid black;
+    border-radius:3px;
+    margin-left:20px; 
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.expenseBox{
+     height:30px;
+   
+    border:1px solid black;
+    border-radius:3px;
+    margin-left:20px; 
+     display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.netBox{
+    height:30px;
+    
+    border:1px solid black;
+    border-radius:3px;
+    margin-left:10px;   
+     display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.describtion{
+    display:flex;
+    gap:60px;
+    margin-left:8px;
+    
+}
+
+h2{
+    background-color:crimson;
+    height:30px;
+   
+    border-radius:3px;
+    border:none;
+    padding:5px;
+    color: white;
+}
+.childInput{
+    display:flex;
+    gap:20px;
+    padding:5px;
+    
+}
+button{
+    background-color: limegreen;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    border-radius:3px;
+}
+.radioOption{
+    margin-top:10px;
+}
+ul{
+    line-height:10px;
+}
+
+ul li{
+    display:flex;
+    gap:6px;
+    align-items:center;
+    height:30px;
+}
+@media only screen and (max-width: 475px){
+    .container{
+        width:500px;
+    border-radius:9px;
+    margin:0px auto;
+    padding:10px;
+    }
+    h1{
+    font-size:30px;
+    text-align: center;
+    color:purple;
+}
+fieldset{
+    padding:5px;
+    line-height:30px;
+    
+}
+.incomestack{
+    display: flex;
+    gap:10px;
+    align-items:center;
+    justify-content: center;
+ 
+}
+.incomeBox .expenseBox .netBox{
+    height:30px;
+    width:50px;
+    border:1px solid black;
+    border-radius:3px;
+    margin-left:20px; 
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.describtion{
+    display:flex;
+    gap:30px;
+    margin-left:5px;
+
+    
+}
+h2{
+    font-size:15px;
+    background-color:crimson;
+    height:15px;
+    
+    border-radius:3px;
+    border:none;
+    padding:5px;
+    margin-left:5px;
+    color: white;
+}
+.childInput{
+    display:flex;
+    gap:10px;
+    padding:5px;
+}
+input[type="text"]{
+    height:20px;
+    width:100px;
+}
+input[type="number"]{
+    height:20px;
+    width:70px;
+}
+button{
+    background-color: limegreen;
+    color:white;
+    border:none;
+    border-radius:3px;
+    padding:5px 10px;
+}
+.radioOption{
+    margin-top:10px;
+}
+
+ul li{
+    display:flex;
+    gap:6px;
+    align-items:center;
+    height:30px;
+}
+
+}

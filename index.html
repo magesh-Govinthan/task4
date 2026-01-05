@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="income.css"/>
+</head>
+<body>
+   <div class="container">
+    <h1>Income Expense Calculator</h1>
+    <fieldset>
+    <div class="incomestack">
+     <div class="income">Total income<div class="incomeBox"></div></div>
+     <div  class="expenses">Total expenses<div class="expenseBox"></div></div>
+     <div  class="net">Net balance<div class="netBox"></div></div>
+     </div>
+     </fieldset>
+     <div class="describtion">
+     <h2 >Describtion</h2>
+     <h2>Amount</h2>
+     </div>
+     <div class="childInput">
+        <input type="text" id="desinput" placeholder="describtion"/>
+        <input type="number" id="amtinput" placeholder="Amount"/>
+       <select id="select">
+        <option value="income" value="Income">Income</option>
+        <option value="expenses" value="Expenses">Expenses</option>
+        </select>
+    <button onclick="addTask()">Add</button>
+    <button onclick="updateTask()">Update</button>
+    <button onclick="resetTask()">Reset</button>
+    </div>
+    <div id="radioOption">
+        <input type="radio" id="all" name="myRadioGroup" value="all">
+  <label for="all">All</label>
+
+  <input type="radio" id="income" name="myRadioGroup" value="income">
+  <label for="income">Income</label>
+
+  <input type="radio" id="expenses" name="myRadioGroup" value="expenses">
+  <label for="expenses">Expenses</label><br>
+    </div>
+    <ul id="addList">
+        
+    </ul>
+</div> 
+<script src="income.js"></script>
+</body>
+</html>
