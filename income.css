@@ -158,19 +158,22 @@ h2{
 }
 input[type="text"]{
     height:20px;
-    width:100px;
+    width:80px;
 }
 input[type="number"]{
     height:20px;
-    width:50px;
+    width:40px;
+}
+#select{
+   height:20px; 
 }
 button{
     background-color: limegreen;
     color:white;
     border:none;
     border-radius:3px;
-    height:10px;
-    
+    height:20px;
+
   
 }
 .radioOption{
