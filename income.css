@@ -162,14 +162,14 @@ input[type="text"]{
 }
 input[type="number"]{
     height:20px;
-    width:70px;
+    width:50px;
 }
 button{
     background-color: limegreen;
     color:white;
     border:none;
     border-radius:3px;
-    padding:5px 10px;
+  
 }
 .radioOption{
     margin-top:10px;
