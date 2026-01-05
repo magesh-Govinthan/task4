@@ -141,7 +141,7 @@ fieldset{
     
 }
 h2{
-    font-size:15px;
+    font-size:medium;
     background-color:crimson;
     height:15px;
     
@@ -157,7 +157,7 @@ h2{
     padding:5px;
 }
 input[type="text"]{
-    height:20px;
+    height:30px;
     width:70px;
 }
 input[type="number"]{
