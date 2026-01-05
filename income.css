@@ -158,21 +158,27 @@ h2{
 }
 input[type="text"]{
     height:20px;
-    width:80px;
+    width:70px;
 }
 input[type="number"]{
-    height:20px;
+    height:30px;
     width:40px;
 }
 #select{
-   height:20px; 
+   height:30px; 
+   width:40px;
+
 }
 button{
     background-color: limegreen;
     color:white;
     border:none;
     border-radius:3px;
-    height:20px;
+    height:30px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
 
   
 }
